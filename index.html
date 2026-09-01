@@ -1,208 +1,639 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <title>Bao | Portfolio</title>
+<head>
+    <meta charset="UTF-8">
 
-      <link rel="stylesheet" href="style.css">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-      <!-- Font Awesome Icons -->
-      <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      >
-  </head>
+    <title>Bao | Software Engineering Portfolio</title>
 
-  <body>
-    <!-- Add your HTML content here -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 
-      <!-- Navigation -->
-      <nav>
-          <div class="nav-container">
-              <h2 class="logo">Bao.</h2>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
-              <ul>
-                  <li><a href="#home">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#skills">Skills</a></li>
-                  <li><a href="#projects">Projects</a></li>
-                  <li><a href="#contact">Contact</a></li>
-              </ul>
-          </div>
-      </nav>
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
 
-      <!-- Hero -->
-      <header id="home" class="hero">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
 
-          <div class="hero-content">
-              <p class="intro">Hello, I'm</p>
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
 
-              <h1>Bao</h1>
 
-              <h2>Software Engineering Student</h2>
+<body>
 
-              <p>
-                  I'm interested in software development, web development,
-                  and building projects that help me turn what I learn
-                  into practical experience.
-              </p>
+    <!-- Background glow effects -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
 
-              <a href="#projects" class="button">
-                  View My Projects
-              </a>
-          </div>
-      </header>
 
-      <main>
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
 
-          <!-- About -->
-          <section id="about">
+    <nav>
 
-              <h2 class="section-title">About Me</h2>
+        <div class="nav-container">
 
-              <div class="about-content">
+            <a href="#home" class="logo">
+                &lt;Bao<span>/&gt;</span>
+            </a>
 
-                  <p>
-                      I'm a third-year Software Engineering student at
-                      Indiana University Bloomington. I enjoy learning
-                      how software works and using programming to solve
-                      problems and build useful projects.
-                  </p>
+            <ul class="nav-links">
 
-                  <p>
-                      I'm currently developing my skills in web development
-                      and software engineering while creating projects that
-                      I can add to my portfolio. My goal is to continue
-                      improving my technical skills and prepare for future
-                      software development opportunities.
-                  </p>
-              </div>
-          </section>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
 
-          <!-- Skills -->
-          <section id="skills">
+                <li>
+                    <a href="#about">About</a>
+                </li>
 
-              <h2 class="section-title">Skills</h2>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
 
-              <div class="skills-container">
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
 
-                  <div class="skill-card">
-                      <i class="fa-brands fa-html5"></i>
-                      <h3>HTML</h3>
-                  </div>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
 
-                  <div class="skill-card">
-                      <i class="fa-brands fa-css3-alt"></i>
-                      <h3>CSS</h3>
-                  </div>
+            </ul>
 
-                  <div class="skill-card">
-                      <i class="fa-brands fa-java"></i>
-                      <h3>Java</h3>
-                  </div>
+        </div>
 
-                  <div class="skill-card">
-                      <i class="fa-brands fa-python"></i>
-                      <h3>Python</h3>
-                  </div>
+    </nav>
 
-                  <div class="skill-card">
-                      <i class="fa-brands fa-git-alt"></i>
-                      <h3>Git</h3>
-                  </div>
 
-                  <div class="skill-card">
-                      <i class="fa-brands fa-github"></i>
-                      <h3>GitHub</h3>
-                  </div>
-              </div>
-          </section>
 
-          <!-- Projects -->
-          <section id="projects">
+    <!-- =========================
+         HERO
+    ========================== -->
 
-              <h2 class="section-title">Projects</h2>
+    <header id="home" class="hero">
 
-              <div class="projects-container">
+        <div class="hero-container">
 
-                  <div class="project-card">
 
-                      <div class="project-icon">
-                          <i class="fa-solid fa-laptop-code"></i>
-                      </div>
+            <!-- HERO TEXT -->
 
-                      <h3>Portfolio Website</h3>
+            <div class="hero-text">
 
-                      <p>
-                          A personal portfolio website created with HTML
-                          and CSS to showcase my skills and future projects.
-                      </p>
+                <div class="status-badge">
+                    <span class="status-dot"></span>
+                    Open to opportunities
+                </div>
 
-                      <div class="project-tags">
-                          <span>HTML</span>
-                          <span>CSS</span>
-                      </div>
-                  </div>
 
-                  <div class="project-card">
+                <p class="hero-intro">
+                    Hello, I'm
+                </p>
 
-                      <div class="project-icon">
-                          <i class="fa-solid fa-code"></i>
-                      </div>
 
-                      <h3>Coming Soon</h3>
+                <h1>
+                    Bao
+                    <span>Truong.</span>
+                </h1>
 
-                      <p>
-                          I'll add more projects here as I continue learning
-                          and building throughout the course.
-                      </p>
-                  </div>
 
-                  <div class="project-card">
+                <h2>
+                    Software Engineering Student
+                </h2>
 
-                      <div class="project-icon">
-                          <i class="fa-solid fa-rocket"></i>
-                      </div>
 
-                      <h3>Coming Soon</h3>
+                <p class="hero-description">
+                    I enjoy building software, exploring new
+                    technologies, and turning ideas into practical
+                    projects. I'm currently expanding my experience
+                    in web development and software engineering.
+                </p>
 
-                      <p>
-                          Future web development and software engineering
-                          projects will be added here.
-                      </p>
-                  </div>
-              </div>
-          </section>
 
-          <!-- Contact -->
-          <section id="contact">
+                <div class="hero-buttons">
 
-              <h2 class="section-title">Contact</h2>
+                    <a href="#projects" class="primary-button">
 
-              <p class="contact-text">
-                  Want to see more of my work or connect with me?
-              </p>
+                        View Projects
 
-              <div class="contact-links">
+                        <i class="fa-solid fa-arrow-right"></i>
 
-                  <a href="YOUR_GITHUB_LINK" target="_blank">
-                      <i class="fa-brands fa-github"></i>
-                      GitHub
-                  </a>
+                    </a>
 
-                  <a href="YOUR_LINKEDIN_LINK" target="_blank">
-                      <i class="fa-brands fa-linkedin"></i>
-                      LinkedIn
-                  </a>
-              </div>
-          </section>
-      </main>
 
-      <!-- Footer -->
-      <footer>
-          <p>© 2026 Bao. Built with HTML & CSS.</p>
-      </footer>
-  </body>
+                    <a
+                        href="YOUR_GITHUB_LINK"
+                        target="_blank"
+                        class="secondary-button"
+                    >
+
+                        <i class="fa-brands fa-github"></i>
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+
+                <!-- QUICK TECH LIST -->
+
+                <div class="quick-tech">
+
+                    <span>HTML</span>
+
+                    <span>CSS</span>
+
+                    <span>Java</span>
+
+                    <span>Python</span>
+
+                    <span>Git</span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROFILE IMAGE -->
+
+            <div class="hero-image">
+
+                <div class="image-wrapper">
+
+                    <div class="image-glow"></div>
+
+                    <img
+                        src="images/profile.jpg"
+                        alt="Bao profile"
+                        class="profile-image"
+                    >
+
+
+                    <!-- Floating icons -->
+
+                    <div class="floating-icon icon-code">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+
+
+                    <div class="floating-icon icon-github">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+
+
+                    <div class="floating-icon icon-terminal">
+                        <i class="fa-solid fa-terminal"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section id="about">
+
+            <div class="section-label">
+                01 / ABOUT
+            </div>
+
+
+            <h2 class="section-title">
+                A little about me.
+            </h2>
+
+
+            <div class="about-grid">
+
+
+                <div class="about-text">
+
+                    <p>
+                        I'm a third-year Software Engineering student
+                        at Indiana University Bloomington. I'm
+                        interested in software development and enjoy
+                        learning how different technologies can be
+                        used to solve problems.
+                    </p>
+
+
+                    <p>
+                        Right now, I'm building my experience through
+                        coursework and personal projects while learning
+                        more about web development, software engineering,
+                        databases, and modern development tools.
+                    </p>
+
+
+                    <p>
+                        My goal is to continue developing my technical
+                        skills and build projects that demonstrate what
+                        I can do beyond the classroom.
+                    </p>
+
+                </div>
+
+
+
+                <!-- INFO CARDS -->
+
+                <div class="about-cards">
+
+
+                    <div class="mini-card">
+
+                        <i class="fa-solid fa-graduation-cap"></i>
+
+                        <div>
+                            <span>Studying</span>
+                            <strong>Software Engineering</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="mini-card">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <div>
+                            <span>University</span>
+                            <strong>Indiana University</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="mini-card">
+
+                        <i class="fa-solid fa-laptop-code"></i>
+
+                        <div>
+                            <span>Currently Learning</span>
+                            <strong>Web Development</strong>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             SKILLS
+        ========================== -->
+
+        <section id="skills">
+
+            <div class="section-label">
+                02 / SKILLS
+            </div>
+
+
+            <h2 class="section-title">
+                Technologies I'm working with.
+            </h2>
+
+
+            <div class="skills-grid">
+
+
+                <div class="skill-card">
+
+                    <i class="fa-brands fa-html5"></i>
+
+                    <h3>HTML</h3>
+
+                    <p>
+                        Building structured and accessible web pages.
+                    </p>
+
+                </div>
+
+
+
+                <div class="skill-card">
+
+                    <i class="fa-brands fa-css3-alt"></i>
+
+                    <h3>CSS</h3>
+
+                    <p>
+                        Creating responsive and modern page layouts.
+                    </p>
+
+                </div>
+
+
+
+                <div class="skill-card">
+
+                    <i class="fa-brands fa-java"></i>
+
+                    <h3>Java</h3>
+
+                    <p>
+                        Object-oriented programming and software development.
+                    </p>
+
+                </div>
+
+
+
+                <div class="skill-card">
+
+                    <i class="fa-brands fa-python"></i>
+
+                    <h3>Python</h3>
+
+                    <p>
+                        Programming, automation, and problem solving.
+                    </p>
+
+                </div>
+
+
+
+                <div class="skill-card">
+
+                    <i class="fa-brands fa-git-alt"></i>
+
+                    <h3>Git</h3>
+
+                    <p>
+                        Version control and collaborative workflows.
+                    </p>
+
+                </div>
+
+
+
+                <div class="skill-card">
+
+                    <i class="fa-brands fa-github"></i>
+
+                    <h3>GitHub</h3>
+
+                    <p>
+                        Managing repositories, branches, and projects.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PROJECTS
+        ========================== -->
+
+        <section id="projects">
+
+            <div class="section-label">
+                03 / PROJECTS
+            </div>
+
+
+            <h2 class="section-title">
+                Things I've built.
+            </h2>
+
+
+            <div class="projects-grid">
+
+
+                <!-- PROJECT 1 -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <img
+                            src="images/portfolio-project.png"
+                            alt="Portfolio website project"
+                        >
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <div class="project-number">
+                            01
+                        </div>
+
+
+                        <h3>
+                            Personal Portfolio
+                        </h3>
+
+
+                        <p>
+                            A responsive personal portfolio designed
+                            to showcase my skills, projects, and
+                            development experience.
+                        </p>
+
+
+                        <div class="project-technologies">
+
+                            <span>HTML</span>
+
+                            <span>CSS</span>
+
+                            <span>GitHub Pages</span>
+
+                        </div>
+
+
+                        <div class="project-links">
+
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                Live Site
+                            </a>
+
+
+                            <a
+                                href="YOUR_GITHUB_LINK"
+                                target="_blank"
+                            >
+                                <i class="fa-brands fa-github"></i>
+                                Source
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PROJECT 2 -->
+
+                <article class="project-card coming-soon">
+
+                    <div class="coming-soon-icon">
+
+                        <i class="fa-solid fa-code"></i>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <div class="project-number">
+                            02
+                        </div>
+
+
+                        <h3>
+                            Next Project
+                        </h3>
+
+
+                        <p>
+                            More projects will be added as I continue
+                            developing my skills throughout the course.
+                        </p>
+
+
+                        <div class="project-technologies">
+
+                            <span>Coming Soon</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section id="contact">
+
+            <div class="contact-card">
+
+                <div class="section-label">
+                    04 / CONTACT
+                </div>
+
+
+                <h2>
+                    Let's connect.
+                </h2>
+
+
+                <p>
+                    I'm always interested in learning about new
+                    technologies, projects, and software development
+                    opportunities.
+                </p>
+
+
+                <div class="contact-buttons">
+
+
+                    <a
+                        href="YOUR_GITHUB_LINK"
+                        target="_blank"
+                    >
+
+                        <i class="fa-brands fa-github"></i>
+
+                        GitHub
+
+                    </a>
+
+
+                    <a
+                        href="YOUR_LINKEDIN_LINK"
+                        target="_blank"
+                    >
+
+                        <i class="fa-brands fa-linkedin"></i>
+
+                        LinkedIn
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            Designed & built by Bao • 2026
+        </p>
+
+        <p class="footer-code">
+            &lt;/portfolio&gt;
+        </p>
+
+    </footer>
+
+
+</body>
+
 </html>
